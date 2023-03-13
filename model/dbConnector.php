@@ -39,11 +39,11 @@ function openDBConnexion (){
 
     $sqlDriver = 'mysql';
     $hostname = 'localhost';
-    $port = 3306;
+    $port = 3312;
     $charset = 'utf8';
     $dbName = 'snows';
-    $userName = 'snows-connector';
-    $userPwd = 'Lu5Ihi';
+    $userName = 'root';
+    $userPwd = 'Miniclip1';
     $dsn = $sqlDriver . ':host=' . $hostname . ';dbname=' . $dbName . ';port=' . $port . ';charset=' . $charset;
 
     try{

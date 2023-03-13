@@ -14,7 +14,8 @@ $title="RentASnow - Snows";
 <div class="span12" id="divMain">
 <?php foreach ($snows as $snow) : ?>
         <div class="thumbnail">
-            <?= $snow['code']; ?>
+            <a href="view/content/images/.jpg" target="blank"><img src="<?= $snow['photo']; ?>" ></a>
+                <p><?= $snow['code']; ?></p>
                 <p><strong>Marque : </strong><?= $snow['brand']; ?></p>
                 <p><strong>Modèle : </strong><?= $snow['model']; ?></p>
                 <p><strong>Longueur : </strong><?= $snow['snowLength']; ?> cm</p>
